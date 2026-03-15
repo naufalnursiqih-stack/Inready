@@ -1,0 +1,8 @@
+CREATE DATABASE belajar_crud;
+USE belajar_crud
+
+CREATE TABLE mahasiswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100) NOT NULL,
+    jurusan VARCHAR(100) NOT NULL
+);
