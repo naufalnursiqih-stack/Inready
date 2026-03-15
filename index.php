@@ -53,7 +53,7 @@ if (isset($_GET['edit'])) {
 
 <body>
 
-    <h1>Data Mahasiswa (PHP & MySQL)</h1>
+    <h1>Data Mahasiswa</h1>
 
     <fieldset>
         <legend><?php echo $edit_data ? "Edit Data" : "Tambah Data"; ?></legend>
